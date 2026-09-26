@@ -4,7 +4,7 @@ function About() {
   return (
     <main className="about-page">
 
-      {/* About Hero */}
+      {/* Introduces me and my professional background */}
       <section className="about-hero">
         <div className="section-container about-hero-grid">
 
@@ -26,7 +26,7 @@ function About() {
             <h1>Crystel Hilton</h1>
 
             <p className="about-title">
-              Digital Health Engineering • Technology
+              Digital Health Engineering Technology
             </p>
 
             <p className="about-lead">
@@ -42,13 +42,14 @@ function About() {
               in Digital Health Engineering Technology.
             </p>
 
+            {/* Opens my professional resume */}
             <a
-              href="/Crystel-Hilton-Resume.pdf"
+              href="/Crystel_Hilton_General_Professional_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="primary-btn about-resume-button"
+              className="resume-button"
             >
-              View My Résumé
+              View My Resume
             </a>
           </div>
 
@@ -56,7 +57,7 @@ function About() {
       </section>
 
 
-      {/* Professional Journey */}
+      {/* Shows how my professional background connects to digital health */}
       <section className="about-journey">
         <div className="section-container">
 
@@ -78,7 +79,9 @@ function About() {
 
             <article className="journey-card">
               <span className="journey-number">01</span>
+
               <h3>Healthcare</h3>
+
               <p>
                 Experience supporting laboratory operations, testing,
                 documentation, quality control, and healthcare-related
@@ -92,7 +95,9 @@ function About() {
 
             <article className="journey-card">
               <span className="journey-number">02</span>
+
               <h3>Quality & Research</h3>
+
               <p>
                 Experience with quality assurance, troubleshooting,
                 documentation, research support, data collection, and
@@ -106,7 +111,9 @@ function About() {
 
             <article className="journey-card journey-highlight">
               <span className="journey-number">03</span>
+
               <h3>Digital Health</h3>
+
               <p>
                 Developing technical knowledge in software, web development,
                 databases, data, systems design, and health information
@@ -119,7 +126,7 @@ function About() {
       </section>
 
 
-      {/* What I Bring */}
+      {/* Highlights the skills and experience I bring */}
       <section className="about-strengths">
         <div className="section-container strengths-layout">
 
@@ -135,8 +142,10 @@ function About() {
 
             <div className="strength-item">
               <span>01</span>
+
               <div>
                 <h3>Healthcare Perspective</h3>
+
                 <p>
                   An understanding of accuracy, documentation, quality,
                   workflows, and the importance of reliable information
@@ -147,8 +156,10 @@ function About() {
 
             <div className="strength-item">
               <span>02</span>
+
               <div>
                 <h3>Technical Skills</h3>
+
                 <p>
                   Experience with C#, Python, JavaScript, React, SQL,
                   Oracle Database, HTML, CSS, Git, and GitHub.
@@ -158,8 +169,10 @@ function About() {
 
             <div className="strength-item">
               <span>03</span>
+
               <div>
                 <h3>Quality Mindset</h3>
+
                 <p>
                   A detail-oriented approach shaped by quality assurance,
                   testing, troubleshooting, research, and documentation.
@@ -169,8 +182,10 @@ function About() {
 
             <div className="strength-item">
               <span>04</span>
+
               <div>
                 <h3>Human-Centred Thinking</h3>
+
                 <p>
                   An interest in technology that is understandable,
                   accessible, reliable, and useful to the people who

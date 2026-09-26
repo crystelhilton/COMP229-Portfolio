@@ -5,13 +5,13 @@ function Home() {
   return (
     <main className="home-page">
 
-      {/* Hero Section */}
+      {/* Introduces me and the purpose of my portfolio */}
       <section className="home-hero">
         <div className="home-hero-inner">
 
           <div className="home-hero-content">
             <p className="home-eyebrow">
-              DIGITAL HEALTH • INFORMATICS TECHNOLOGY
+              DIGITAL HEALTH • ENGINEERING TECHNOLOGY
             </p>
 
             <h1>
@@ -43,7 +43,7 @@ function Home() {
             </div>
           </div>
 
-          {/* Personal Brand */}
+          {/* Displays my personal logo */}
           <div className="home-brand-visual">
             <div className="logo-glow"></div>
 
@@ -58,7 +58,7 @@ function Home() {
       </section>
 
 
-      {/* Professional Focus */}
+      {/* Displays my main professional and technical areas */}
       <section className="focus-section">
         <div className="section-container">
 
@@ -146,7 +146,7 @@ function Home() {
       </section>
 
 
-      {/* Professional Story */}
+      {/* Explains how my previous experience connects to technology */}
       <section className="story-section">
         <div className="section-container story-grid">
 
@@ -183,7 +183,7 @@ function Home() {
       </section>
 
 
-      {/* Projects Preview */}
+      {/* Provides a link to view my projects */}
       <section className="projects-callout">
         <div className="section-container projects-callout-inner">
 

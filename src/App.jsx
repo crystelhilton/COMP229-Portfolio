@@ -12,8 +12,10 @@ import './App.css'
 function App() {
   return (
     <>
+      {/* Displays the navigation bar on every page */}
       <Navbar />
 
+      {/* Controls which page is displayed based on the URL */}
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,6 +27,7 @@ function App() {
         </Routes>
       </main>
 
+      {/* Displays the footer on every page */}
       <Footer />
     </>
   )
