@@ -4065,3 +4065,25 @@ footer p {
     height: 500px;
   }
 }
+/* Keeps the View Projects button clickable */
+
+.projects-callout {
+  position: relative;
+}
+
+.projects-callout-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.light-button {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+/* Decorative layers should not block links */
+.projects-callout::before,
+.projects-callout::after {
+  pointer-events: none;
+}
