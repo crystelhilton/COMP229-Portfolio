@@ -4039,3 +4039,29 @@ footer p {
   }
 
 }
+/* Live Tableau dashboard preview */
+
+.tableau-visual {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tableau-iframe {
+  width: 100%;
+  height: 650px;
+  display: block;
+  border: 0;
+  background-color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .tableau-iframe {
+    height: 550px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tableau-iframe {
+    height: 500px;
+  }
+}
